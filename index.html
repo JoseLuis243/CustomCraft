@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CustomCraft</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: rgb(232, 244, 244);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">CustomCraft</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="Diseños/menu.png" class="menu-icono" alt="">
+            </label>
+            <header class="header">
+                <div class="fa-search">
+                    <div class="btn">
+                        <i class="fa fa-search"></i>
+                    </div>
+                </div>
+                <div class="search-container">
+                    <form action="#" method="get">
+                        <input type="text" placeholder="Buscar..." name="search">
+                        <button type="search">Buscar</button>
+                    </form>
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Crear Productos</a></li>
+                        <li><a href="#">Iniciar Sesion</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <ul>
+                        <li class="submenu">
+                            
+                        </li>
+                    </ul>
+                </div>
+        </div>
+
+        <div class="carrito-container">
+            <button class="carrito-btn">
+              <img src="Diseños/carrito.png" alt="Carrito de compras">
+              <div id="carritos">
+                                <table id="lista">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Producto</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="btn-3">Limpiar</a>
+                            </div>
+            </button>
+          </div>
+
+        <div class="header-content container">
+
+            <div class="header-txt">
+                <h1> <span>Estás listo para empezar a crear?</span></h1>
+                <p>
+                    Explora una amplia gama de productos que puedes adaptar a tu estilo y preferencias. Sumérgete en una
+                    experiencia única donde puedes dar forma a cada detalle, desde la apariencia hasta las
+                    funcionalidades, creando algo verdaderamente tuyo!
+                </p>
+            </div>
+            <div class="header-img">
+                <img src="Diseños/IconoTaza.png" alt="">
+            </div>
+
+        </div>
+
+    </header>
+
+    <hr class="separator" width="70%" color="black"> <br>
+
+    <main class="productos-container">
+
+        <h2>Destacados</h2>
+        <p class="description">
+            Busca en la sección de destacados tu producto favorito
+        </p>
+        <div class="anuncio">
+            <img src="Diseños/Anuncio.jpg" alt="anuncio">
+        </div>
+        <div class="box-container" id="lista-1">
+            <div class="box">
+                <img src="Productos/1.png" alt="">
+                <div class="producto-txt">
+                    <h3>Muñeco de Nieve</h3>
+                    <p>Diseño por - Ximena Ramirez</p>
+                    <p class="precio">$250 mxn</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregalo al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Productos/2.png" alt="">
+                <div class="producto-txt">
+                    <h3>Grinch</h3>
+                    <p>Diseño por - Matías Rodriguez</p>
+                    <p class="precio">$250 mxn</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregalo al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Productos/4.png" alt="">
+                <div class="producto-txt">
+                    <h3>Daft Punk</h3>
+                    <p>Diseño por - Valentina Pérez</p>
+                    <p class="precio">$300 mxn</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregalo al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Productos/5.png" alt="">
+                <div class="producto-txt">
+                    <h3>Renitos y Pingüinos</h3>
+                    <p>Diseño por - Andrés Rodríguez</p>
+                    <p class="precio">$75 mxn</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregalo al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Productos/7.png" alt="">
+                <div class="producto-txt">
+                    <h3>Gatito Negro</h3>
+                    <p>Diseño por - Camila Martínez</p>
+                    <p class="precio">$70 mxn</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregalo al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Productos/8.png" alt="">
+                <div class="producto-txt">
+                    <h3>Taza Motivadora</h3>
+                    <p>Diseño por - Sebastián López</p>
+                    <p class="precio">$95 mxn</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregalo al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Productos/10.png" alt="">
+                <div class="producto-txt">
+                    <h3>Girasoles</h3>
+                    <p>Diseño por - Isabella Torres</p>
+                    <p class="precio">$125 mxn</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregalo al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Productos/12.png" alt="">
+                <div class="producto-txt">
+                    <h3>Cervezas</h3>
+                    <p>Diseño por - Mateo Ramírez</p>
+                    <p class="precio">$125 mxn</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregalo al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Productos/13.png" alt="">
+                <div class="producto-txt">
+                    <h3>Cuaderno Estudiantil</h3>
+                    <p>Diseño por - Lucía González</p>
+                    <p class="precio">$170 mxn</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="9">Agregalo al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Productos/16.png" alt="">
+                <div class="producto-txt">
+                    <h3>Mariquitas</h3>
+                    <p>Diseño por - Alejandra Romero</p>
+                    <p class="precio">$120 mxn</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="10">Agregalo al carrito</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="app container">
+
+        <div class="app-txt">
+
+            <h2>Descarga nuestra app!</h2>
+
+        </div>
+
+    </section>
+
+
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Contactanos</h3>
+                <ul>
+                    <li>
+                        <p>- Correo: @customcraftstudios29@gmail.com</p>
+                    </li>
+                    <li>
+                        <p>- Telefono: +52 6246994583</p>
+                    </li>
+                    
+                    <li>
+                        <p>© CustomCraft. Todos los derechos reservados.</p>
+                    </li>
+                    <div class="descargar">
+                        <img src="Diseños/store1.png" alt="">
+                        <img src="Diseños/store2.png" alt="">
+                    </div>
+                </ul>
+            </div>
+            <body>
+                <div class="contenedor">
+                    <img src="Diseños/App.png" alt="celular">
+                </div>
+            </body>
+    
+        </div>
+        
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
